@@ -9,139 +9,167 @@
 </head>
 
 <body>
-    <nav class="h-15 flex bg-green-600 text-white list-none">
-        <li class="px-3 hover:bg-green-200 hover:text-black">LOGO</li>
-        <li class="px-3">ABOUT</li>
-        <li class="px-3">RECIPES</li>
-        <li a href=# class="px-3">CONTACT</li>
-    </nav>
+    <section class="mb-40">
 
-    <main>
-        <section>
-            <div id="hero" class="px-6 py12 md:px-12 bg-gray-100 text-gray-800 text-center lg:text-left">
-                <div class="container mx-auto xl:px-32">
-                    <div class="grid lg:grid-cols-2 gap-12 flex items-center">
-                        <div class="mt-12 lg:mt-0">
-                            <div class="text-5x1 md:text-6x1 xl:text-7x1 font-bold tracking-tight mb-12">Want the latest
-                                recipes? <br /><span class="text-green-600">Signup today</span></div>
-                        </div>
-                        <p class="">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
-                            consectetur cupidatat.</p>
+        <nav class="flex bg-green-600 text-white">
+            <li class="px-3 hover:bg-green-200 hover:text-black">LOGO</li>
+            <li a href=# class="px-3">ABOUT</li>
+            <li a href=# class="px-3">DINNER</li>
+            <li a href=# class="px-3">TOP RECIPES</li>
+            <li a href=# class="px-3">CONTACT</li>
+        </nav>
+
+        <div id="hero" class="px-6 py12 md:px-12 bg-gray-100 text-gray-800 text-center lg:text-left">
+            <div class="container mx-auto xl:px-32">
+                <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+                    <div class="mt-12 lg:mt-0">
+                        <div class="text-5x1 md:text-6x1 xl:text-7x1 font-bold tracking-tight mb-12">Want the latest
+                            recipes? <br /><span class="text-green-600">Signup today</span></div>
                     </div>
-                    <div class="mb-12 lg:mb-0">
-                        <div class="mb-6">
-                            <input type="text"
-                                class="form-control block w-full px-3 py-1.5 text-base font-norma; text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                placeholder="First Name">
-                        </div>
+                    <p class="">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
+                        consectetur cupidatat.</p>
+                </div>
+                <div class="mb-12 lg:mb-0">
+                    <div class="mb-6">
+                        <input type="text"
+                            class="form-control block w-full px-3 py-1.5 text-base font-norma; text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            placeholder="First Name">
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="mx-auto">
-            <div class="container">
-                <div class="mx-auto border px-6">
-                    NEW
+    <section class="mx-auto">
+        <div class="container">
+            <div class="mx-auto text-xl p-6 underline">
+                NEW
+            </div>
+            <div class="grid lg:grid-cols-3 grid-flow-col gap-8">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex justify-center">
+                        <div class="md:shrink-0">
+                            <img src="./assets/vn.jpeg" alt="Vegetarian Noodles" class="">
+                        </div>
+                    </div>
+                    <div class="text-center p-3 hover:underline">
+                        Vegetable Noodles
+                    </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">
+                        "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
+                        cupidatat."</p>
                 </div>
-                <div class="grid lg:grid-cols-3 grid-flow-col gap-12 justify-items-center">
-                    <div class="card border rounded border-gray-600 items-center">
-                        <div class="w-72">
-                            <img src="./assets/vn.jpeg" alt="Vegetarian Noodles" class="rounded-xl overlay-hidden">
-                        </div>
-                        <div class="text-center">
-                            Vegetable Noodles
-                        </div>
-                        <div>
-                            <img src="./assets/star.png" alt="">
-                            <img src="./assets/star.png" alt="">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <div class="md:shrink-0">
+                            <img src="./assets/cc.jpeg" alt="Cilantro Chicken" class="">
                         </div>
                     </div>
-                    <div class="card border rounded border-gray-600 items-center">
-                        <div class="w-72">
-                            <img src="./assets/cc.jpeg" alt="Cilantro Chicken" class="rounded-xl overlay-hidden">
-                        </div>
-                            <div class="text-center">
-                            Cilantro Chicken
+                    <div class="text-center p-3 hover:underline">
+                        Cilantro Chicken
+                    </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+                </div>
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <div class="md:shrink-0">
+                            <img src="./assets/pp.jpeg" alt="Pesto Pasta" class="">
                         </div>
                     </div>
-                    <div class="card border rounded border-gray-600 items-center">
-                        <div class="w-72">
-                            <img src="./assets/pp.jpeg" alt="Pesto Pasta" class="rounded-xl overlay-hidden">
-                        </div>
-                            <div class="text-center">
-                            Pesto Pasta
-                            </div>
-                        </div>
+                    <div class="text-center p-3 hover:underline">
+                        Pesto Pasta
                     </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">"Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat."</p>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="container border border-radius-5 items-center">
-                <div class="mx-auto">
-                    APPETIZERS
-                </div>
-            <div class="grid lg:grid-cols-3 grid-flow-col gap-12 justify-items-center">
-                <div class="card border rounded border-gray-400 items-center">
-                    <div class="w-72">
-                        <img src="./assets/gg.jpeg" alt="Garlic Bread" class="rounded-xl overlay-hidden">
+        </div>
+    </section>
+    <section class="mx-auto">
+        <div class="container">
+            <div class="mx-auto p-6 text-xl">
+                APPETIZERS
+            </div>
+            <div class="grid lg:grid-cols-3 grid-flow-col gap-8 justify-items-center">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <div class="md:shrink-0">
+                            <img src="./assets/gg.jpeg" alt="Garlic Bread" class="">
+                        </div>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center p-3 hover:underline">
                         Garlic Bread
                     </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">"Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat."</p>
                 </div>
-                <div class="card border rounded border-gray-400 items-center">
-                    <div class="w-72">
-                        <img src="./assets/mc.jpeg" alt="Mushroom Caps" class="rounded-xl overlay-hidden">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <div class="md:shrink-0">
+                            <img src="./assets/mc.jpeg" alt="Mushroom Caps" class="">
+                        </div>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center p-3 hover:underline">
                         Mushroom Caps
                     </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">"Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat."</p>
                 </div>
-                <div class="card border rounded border-gray-400 items-center drop-shadow-lg">
-                    <div class="w-72">
-                        <img src="./assets/cs.jpeg" alt="Cheese Sticks" class="rounded-xl overlay-hidden">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <div class="md:shrink-0">
+                            <img src="./assets/cs.jpeg" alt="Cheese Sticks" class="">
+                        </div>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center p-3 hover:underline">
                         Cheese Sticks
                     </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">"Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat."</p>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="container border border-radius-5">
-                <div class="mx-auto">
-                    DESSERTS
-                </div>
-            <div class="grid lg:grid-cols-3 grid-flow-col gap-12 justify-items-center">
-                <div class="card border rounded border-gray=-400 items-center">
-                    <div class="w-72">
-                        <img src="./assets/t.webp" alt="Tiramisu" class="rounded-xl overlay-hidden">
+    </section>
+    <section clas="mx-auto">
+        <div class="container">
+            <div class="mx-auto p-6 text-xl">
+                DESSERTS
+            </div>
+            <div class="grid lg:grid-cols-3 grid-flow-col gap-8 justify-items-center">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <div class="md:shrink-0">
+                            <img src="./assets/t.webp" alt="Tiramisu" class="">
+                        </div>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center p-3 hover:underline">
                         Tiramisu
                     </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">"Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat."</p>
                 </div>
-                <div class="card border rounded border-gray-400 items-center">
-                    <div class="w-72">
-                        <img src="./assets/pc.webp" alt="Pineapple Cake" class="rounded-xl overlay-hidden">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <img src="./assets/pc.webp" alt="Pineapple Cake" class="">
                     </div>
-                    <div class="text-center bg-maroon-200">
+                    <div class="text-center p-3 hover:underline">
                         Pineapple Cake
                     </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">"Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat."</p>
                 </div>
-                <div class="card border rounded border-gray-400 items-center">
-                    <div class="w-72">
-                        <img src="./assets/b.jpeg" alt="Brownies" class="rounded-xl overlay-hidden">
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md-flex">
+                        <img src="./assets/b.jpeg" alt="Brownies" class="">
                     </div>
-                    <div class="text-center bg-fuschia-200">
+                    <div class="text-center p-3 hover:underline">
                         Brownies
                     </div>
+                    <p class="text-sm italic text-gray-400 font-light h-24 px-6">"Lorem ipsum dolor sit amet, qui
+                        minim labore adipisicing minim sint cillum sint consectetur cupidatat."</p>
                 </div>
             </div>
-        </section>
-    </main>
+    </section>
 
 </body>
 
